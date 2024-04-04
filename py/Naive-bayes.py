@@ -1,7 +1,7 @@
 # Import Package
 from sklearn.metrics import accuracy_score,recall_score,precision_score,confusion_matrix
 from sklearn.preprocessing import StandardScaler
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
